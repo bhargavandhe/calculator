@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.head {
+    margin: 60px auto;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: rgb(253, 197, 75);
+}
+
+.textarea {
+    margin: 50px auto 0;
+    width: 400px;
+    background-color: rgb(40, 40, 40);
+    color: wheat;
+    border-radius: 12px;
+    font-family: 'Source Code Pro', monospace;
+    border: 2px solid rgb(150, 150, 150);
+}
+
+.result {
+    padding: 20px;
+}
+
+.expression {
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.operations {
+    height: max-content;
+    background-color: rgb(40, 40, 40);
+    border: 2px solid rgb(150, 150, 150);
+    width: 380px;
+    margin: 10px auto;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 10px;
+}
+
+.operations div {
+    padding: 20px;
+    -webkit-user-select: none;
+    transition: all 0.3s ease;
+    font-family: 'Source Code pro', sans-serif;
+    color: rgb(255, 213, 158);
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.operations div:hover {
+    background-color: rgb(56, 56, 56);
+}
